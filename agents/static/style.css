@@ -1,0 +1,135 @@
+/* --------------------------------------------------
+   🌙 APPLE VISION PRO / GLASS DESIGN
+-------------------------------------------------- */
+
+body {
+  background: linear-gradient(135deg, #ffffff, #e5e8eb);
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", sans-serif;
+}
+
+/* Remove bordas nativas do Gradio */
+.gradio-container {
+  border: none !important;
+}
+
+/* --------------------------------------------------
+   CARD GLASS (melhorado)
+-------------------------------------------------- */
+.card {
+  background: rgba(255, 255, 255, 0.22);
+  backdrop-filter: saturate(220%) blur(28px);
+  -webkit-backdrop-filter: saturate(220%) blur(28px);
+
+  border-radius: 22px;
+  padding: 30px;
+
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  box-shadow: 0 12px 45px rgba(0, 0, 0, 0.12);
+
+  transition: transform 0.2s ease, box-shadow 0.25s ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 18px 55px rgba(0, 0, 0, 0.18);
+}
+
+/* --------------------------------------------------
+   BOTÕES ESTILO MACOS
+-------------------------------------------------- */
+button, .gr-button {
+  background: rgba(255, 255, 255, 0.55) !important;
+  border: 1px solid rgba(255, 255, 255, 0.45) !important;
+  backdrop-filter: blur(18px);
+
+  border-radius: 14px !important;
+  padding: 12px 22px !important;
+  font-size: 15px !important;
+  font-weight: 600 !important;
+
+  transition: 0.25s ease;
+}
+
+button:hover, .gr-button:hover {
+  background: rgba(255, 255, 255, 0.85) !important;
+  transform: scale(1.04);
+}
+
+/* --------------------------------------------------
+   INPUTS (Text / Upload)
+-------------------------------------------------- */
+textarea, input, .gr-textbox, .gr-file-upload {
+  background: rgba(255, 255, 255, 0.35) !important;
+  backdrop-filter: blur(18px);
+
+  border-radius: 18px !important;
+  border: 1px solid rgba(255, 255, 255, 0.5) !important;
+
+  padding: 14px !important;
+  font-size: 16px !important;
+
+  transition: 0.2s ease;
+}
+
+textarea:focus, input:focus, .gr-textbox:focus {
+  outline: none !important;
+  border: 1px solid rgba(0, 122, 255, 0.7) !important;
+  box-shadow: 0 0 12px rgba(0, 122, 255, 0.25);
+}
+
+/* --------------------------------------------------
+   CHAT ESTILO IMESSAGE PREMIUM
+-------------------------------------------------- */
+.chatbot {
+  background: rgba(255, 255, 255, 0.20) !important;
+  backdrop-filter: blur(22px);
+  border-radius: 24px !important;
+  padding: 20px !important;
+}
+
+.chat-message {
+  padding: 14px 20px;
+  margin-bottom: 12px;
+  border-radius: 22px;
+  max-width: 75%;
+  animation: fadeIn 0.25s ease-in-out;
+}
+
+.chat-user {
+  background: linear-gradient(135deg, #007aff, #005eff);
+  color: white;
+  margin-left: auto;
+  font-weight: 500;
+}
+
+.chat-ai {
+  background: rgba(255, 255, 255, 0.65);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  font-weight: 500;
+}
+
+/* Fade suave nas mensagens */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(5px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* --------------------------------------------------
+   ARQUIVOS PARA DOWNLOAD
+-------------------------------------------------- */
+.gr-file {
+  background: rgba(255, 255, 255, 0.28) !important;
+  border-radius: 14px !important;
+  backdrop-filter: blur(15px);
+}
+
+/* --------------------------------------------------
+   TÍTULOS E TEXTOS
+-------------------------------------------------- */
+h1, h2, h3 {
+  font-weight: 700;
+  background: linear-gradient(135deg, #000000, #555555);
+  -webkit-background-clip: text;
+  color: transparent;
+}

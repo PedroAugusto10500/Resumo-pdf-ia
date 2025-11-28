@@ -1,0 +1,34 @@
+# Ambiente virtual
+venv/
+.env
+
+# Arquivos temporários
+__pycache__/
+*.pyc
+
+# Cache do Gradio
+gradio/
+
+# Logs
+*.log
+
+# Configurações específicas de IDE
+.vscode/
+.idea/
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+ 
+# Arquivos de dados
+data/
+
+# Arquivos de saída
+outputs/
+
+# Arquivos de configuração
+config.json
+
+# Arquivos de teste
+test.py
+    
