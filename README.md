@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Status-Conclu%C3%ADdo-28a745?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Tecnologia-IA%20(OpenAI)-412991?style=for-the-badge&logo=openai&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python-3.10-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3.12-3776AB?style=for-the-badge&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/Gradio-UI%20Interativa-orange?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Licença-MIT-green?style=for-the-badge" />
 </p>
