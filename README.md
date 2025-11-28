@@ -8,33 +8,30 @@
   <img src="https://img.shields.io/badge/Licença-MIT-green?style=for-the-badge" />
 </p>
 
-Uma aplicação inteligente capaz de **ler PDFs, gerar resumos automáticos e responder perguntas** com base nas informações extraídas — utilizando **IA da OpenAI**, interface **Gradio** e processamento local de texto.  
+---
 
-Ideal para estudo, produtividade e demonstração de domínio em **Integração com IA, Python e soluções práticas**.
+# Aplicação Inteligente de Resumo de PDFs
+
+Esta ferramenta lê PDFs, extrai texto página por página, detecta automaticamente o idioma e gera resumos completos usando IA da OpenAI. Os resumos podem ser combinados, permitindo que o usuário faça perguntas ao conteúdo e receba respostas claras e precisas. É possível baixar os resultados em TXT ou DOCX, tornando o processo rápido e prático.  
+
+O projeto demonstra integração prática com modelos de IA, automação em Python, criação de interfaces interativas com Gradio e aumento de produtividade no processamento de documentos extensos.  
+
+A aplicação é ideal para estudantes que precisam resumir PDFs acadêmicos, profissionais revisando relatórios ou pesquisadores analisando múltiplos documentos, oferecendo uma forma objetiva e eficiente de interpretar conteúdos longos.
 
 ---
 
 ## 📸 Demonstração
 
-> GIF ou vídeo curto é ideal para mostrar upload → resumo → resposta.  
-> Substitua as imagens abaixo por prints reais.
-
 <div align="center">
 <table>
   <tr>
     <td align="center">
-      <b>Interface Principal</b><br>
-      <img src="prints/interface.png" width="400">
+      <b>Interface Principal - Modo Escuro</b><br>
+      <img src="https://github.com/PedroAugusto10500/Resumo-pdf-ia/blob/main/agents/prints/Captura%20de%20tela%202025-11-28%20090214.png" width="400">
     </td>
     <td align="center">
-      <b>Histórico de Conversa</b><br>
-      <img src="prints/chat.png" width="400">
-    </td>
-  </tr>
-  <tr>
-    <td align="center" colspan="2">
-      <b>Resumos e Downloads</b><br>
-      <img src="prints/downloads.png" width="450">
+      <b>Interface Principal - Modo Claro</b><br>
+      <img src="https://github.com/PedroAugusto10500/Resumo-pdf-ia/blob/main/agents/prints/Captura%20de%20tela%202025-11-28%20091031.png" width="400">
     </td>
   </tr>
 </table>
@@ -107,34 +104,3 @@ python app.py
 A aplicação abrirá em:
 http://localhost:7861
 ```
-## 🧠 Como Funciona
-O usuário envia PDFs
-
-O sistema extrai o texto página por página
-
-A IA detecta o idioma e gera resumos
-
-Todos os resumos são combinados
-
-Perguntas podem ser feitas com base no resumo
-
-Resultados podem ser baixados em TXT ou DOCX
-
-
-## ⭐ Observações Finais
-Este projeto demonstra:
-
-Integração prática com modelos de IA
-
-Processamento de arquivos PDF
-
-Criação de interfaces interativas com Gradio
-
-Aplicação de Python no mundo real
-
-Automação e produtividade
-
-### Casos de uso sugeridos:
-Estudantes resumindo artigos e PDFs acadêmicos
-
-Profissionais revisando relatórios
