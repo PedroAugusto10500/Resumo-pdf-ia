@@ -67,7 +67,7 @@ A aplicação é ideal para estudantes que precisam resumir PDFs acadêmicos, pr
 |--------|-------------|-----------|
 | **IA** | OpenAI GPT-4.1 / GPT-4o-mini | Geração de resumos e respostas inteligentes |
 | **Interface** | Gradio | UI interativa e responsiva |
-| **Linguagem** | Python 3.10 | Backend do projeto |
+| **Linguagem** | Python 3.12 | Backend do projeto |
 | **PDF** | PyPDF2 | Extração de texto de arquivos PDF |
 | **Documentos** | python-docx | Exportação de resumos em DOCX |
 | **Configuração** | python-dotenv | Gerenciamento seguro de API Key |
