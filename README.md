@@ -100,7 +100,6 @@ OPENAI_API_KEY=sua_chave_aqui
 5️⃣ Executar o projeto
 ```bash
 python app.py
-
+```
 A aplicação abrirá em:
 http://localhost:7861
-```
